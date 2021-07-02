@@ -1,0 +1,21 @@
+create database EnglishSchool;
+
+use EnglishSchool;
+
+create table Students (
+	id int auto_increment primary key,
+    fname varchar(20) not null,
+    sname varchar(20) not null,
+    lname varchar(20) not null,
+    phone varchar(20) not null
+
+);|
+
+insert into students (fname, sname, lname, phone)
+value
+('Oleg', 'Alexandrovich', 'Petrov', '380990008811'),
+('Filip', 'Alexeevich', 'Shmit', '380990008812'),
+('Marta', 'Grigorevna', 'Varta', '380990008813'),
+('Duglas', 'Afanasievich', 'Put', '380990008814'),
+('Ivan', 'Nikolaevich', 'Sidoroff', '380990008815'),
+('Penelopa', 'Ivanovna', 'Ivanova', '380990008816')
